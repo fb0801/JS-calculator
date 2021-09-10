@@ -10,8 +10,8 @@
 body {
   padding: 0;
   margin: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#0099cc), to(#f2f2f2));
-  background: linear-gradient(to right, #0099cc, #f2f2f2);
+  background: -webkit-gradient(linear, left top, right top, from(#0099cc), to(#ff652f));
+  background: linear-gradient(to right, #0099cc, #ff652f);
 }
 
 .calculator-grid {
@@ -65,8 +65,13 @@ body {
   word-break: break-all;
 }
 
-.output .previous-operand {
+output .previous-operand {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 2.5rem;
 }
 /*# sourceMappingURL=style.css.map */
